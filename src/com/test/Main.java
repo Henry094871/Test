@@ -12,7 +12,7 @@ public class Main {
 
     }
 
-    private static String isExist(String s, int n) {
+    public static String isExist(String s, int n) {
         // TODO Auto-generated method stub
         String[] strArr = s.split(",");
         for (int i = 0; i < strArr.length; i++) {
